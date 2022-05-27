@@ -52,7 +52,6 @@ Our overarching goals are clarity, consistency and brevity, in that order.
 * [No #imageLiteral or #colorLiteral](#no-imageliteral-or-colorliteral)
 * [Organization and Bundle Identifier](#organization-and-bundle-identifier)
 * [Copyright Statement](#copyright-statement)
-* [Smiley Face](#smiley-face)
 * [References](#references)
 
 
@@ -288,12 +287,11 @@ var deviceModels: [String]
 
 ## Spacing
 
-* Indent using 2 spaces rather than tabs to conserve space and help prevent line wrapping. Be sure to set this preference in Xcode and in the Project settings as shown below:
+* Indent using 4 spaces rather than tabs to conserve space and help prevent line wrapping. Be sure to set this preference in Xcode and in the Project settings as shown below:
 
 ![Xcode indent settings](screens/indentation.png)
 
 * Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
-* Tip: You can re-indent by selecting some code (or **Command-A** to select all) and then **Control-I** (or **Editor ▸ Structure ▸ Re-Indent** in the menu). Some of the Xcode template code will have 4-space tabs hard coded, so this is a good way to fix that.
 
 **Preferred**:
 ```swift
@@ -1124,23 +1122,10 @@ file:
 /// THE SOFTWARE.
 ```
 
-## Smiley Face
-
-Smiley faces are a very prominent style feature of the [raywenderlich.com](https://www.raywenderlich.com/) site! It is very important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket `]` is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis `)` creates a half-hearted smile, and thus is not preferred.
-
-**Preferred**:
-```
-:]
-```
-
-**Not Preferred**:
-```
-:)
-```
-
 ## References
 
 * [The Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
 * [The Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/index.html)
 * [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)
 * [Swift Standard Library Reference](https://developer.apple.com/library/prerelease/ios/documentation/General/Reference/SwiftStandardLibraryReference/index.html)
+* [Raywenderlich swift style](https://github.com/raywenderlich/swift-style-guide)
